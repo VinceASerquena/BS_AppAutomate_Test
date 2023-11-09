@@ -1,0 +1,134 @@
+11:08:08.222 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.13.0
+11:08:08.226 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+11:08:08.583 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\COLLABERA.DIGITAL\Downloads\testng-appium-app-browserstack-sdk\testng-appium-app-browserstack-sdk\android\testng-examples\browserstack.yml
+11:08:08.724 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+11:08:09.403 [main] INFO  c.browserstack.BrowserStackJavaAgent - uploading app ./WikipediaSample.apk to browserstack
+11:08:27.083 [main] INFO  c.browserstack.BrowserStackJavaAgent - app upload completed: {"app_url":"bs:\/\/57c29dbc19131db2600daed38faf7cb79bde54b9"}
+11:08:27.083 [main] INFO  c.browserstack.BrowserStackJavaAgent - Using app: [bs://57c29dbc19131db2600daed38faf7cb79bde54b9]
+11:08:27.083 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+11:08:33.645 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+11:08:40.419 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+11:08:45.773 [main] ERROR c.b.utils.GlobalExceptionHandler - Global SDK Exception - java.lang.UnsupportedClassVersionError: org/testng/remote/RemoteTestNG has been compiled by a more recent version of the Java Runtime (class file version 55.0), this version of the Java Runtime only recognizes class file versions up to 52.0
+11:08:46.029 [Thread-1] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/evr4fa1mrmkcozqofxlerucpvmqa15agy71h8vro to view build report, insights, and many more debugging information all at one place!
+
+11:08:47.873 [Thread-3] INFO  com.browserstack.LocalFactory - BrowserStack Local Stopped Successfully.
+11:11:55.452 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.13.0
+11:11:55.454 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+11:11:55.626 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\COLLABERA.DIGITAL\Downloads\testng-appium-app-browserstack-sdk\testng-appium-app-browserstack-sdk\android\testng-examples\browserstack.yml
+11:11:55.701 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+11:11:55.948 [main] INFO  c.browserstack.BrowserStackJavaAgent - uploading app ./WikipediaSample.apk to browserstack
+11:12:19.874 [main] INFO  c.browserstack.BrowserStackJavaAgent - app upload completed: {"app_url":"bs:\/\/57c29dbc19131db2600daed38faf7cb79bde54b9"}
+11:12:19.876 [main] INFO  c.browserstack.BrowserStackJavaAgent - Using app: [bs://57c29dbc19131db2600daed38faf7cb79bde54b9]
+11:12:19.876 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+11:12:25.560 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+11:12:31.469 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+11:13:12.408 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/dofoglesx05xfab0bekcnvu0kzacebvg8lzq72vo to view build report, insights, and many more debugging information all at one place!
+
+11:13:13.270 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://app-automate.browserstack.com/dashboard/v2/builds/09e274e622bc5ce7c0557a30b33662fb89bb04d6
+11:13:13.271 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+11:13:14.082 [Thread-3] INFO  com.browserstack.LocalFactory - BrowserStack Local Stopped Successfully.
+11:29:15.943 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.13.0
+11:29:15.947 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+11:29:16.131 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\COLLABERA.DIGITAL\Downloads\testng-appium-app-browserstack-sdk\testng-appium-app-browserstack-sdk\android\testng-examples\browserstack.yml
+11:29:16.185 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+11:29:16.433 [main] INFO  c.browserstack.BrowserStackJavaAgent - uploading app ./ApiDemos-debug.apk to browserstack
+11:29:23.590 [main] INFO  c.browserstack.BrowserStackJavaAgent - app upload completed: {"app_url":"bs:\/\/99b25759762ff8a21adafe2d47d9906110a72069"}
+11:29:23.591 [main] INFO  c.browserstack.BrowserStackJavaAgent - Using app: [bs://99b25759762ff8a21adafe2d47d9906110a72069]
+11:29:23.591 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+11:29:30.151 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+11:29:36.437 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+11:30:31.429 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/akjace7nfsn9vmdm8xffeybq5nxvtv0twvmgpg4r to view build report, insights, and many more debugging information all at one place!
+
+11:30:32.393 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://app-automate.browserstack.com/dashboard/v2/builds/b2770e42602bbd899592168d44212eaedb8ab910
+11:30:32.394 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+11:30:32.927 [Thread-3] INFO  com.browserstack.LocalFactory - BrowserStack Local Stopped Successfully.
+12:07:20.511 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.13.0
+12:07:20.513 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+12:07:20.697 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\COLLABERA.DIGITAL\Downloads\testng-appium-app-browserstack-sdk\testng-appium-app-browserstack-sdk\android\testng-examples\browserstack.yml
+12:07:20.749 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+12:07:20.989 [main] INFO  c.browserstack.BrowserStackJavaAgent - uploading app ./ApiDemos-debug.apk to browserstack
+12:07:29.464 [main] INFO  c.browserstack.BrowserStackJavaAgent - app upload completed: {"app_url":"bs:\/\/99b25759762ff8a21adafe2d47d9906110a72069"}
+12:07:29.466 [main] INFO  c.browserstack.BrowserStackJavaAgent - Using app: [bs://99b25759762ff8a21adafe2d47d9906110a72069]
+12:07:29.466 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+12:07:36.128 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+12:07:42.090 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+12:09:40.563 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/laki4n0ktasbcn8maokmfje6zticra9wofpd2cuy to view build report, insights, and many more debugging information all at one place!
+
+12:09:41.595 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://app-automate.browserstack.com/dashboard/v2/builds/f9edaa7ef438c06340efb12b9cb5881b98b00df5
+12:09:41.595 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+12:09:42.161 [Thread-3] INFO  com.browserstack.LocalFactory - BrowserStack Local Stopped Successfully.
+12:14:25.597 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.13.0
+12:14:25.600 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+12:14:25.834 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\COLLABERA.DIGITAL\Downloads\testng-appium-app-browserstack-sdk\testng-appium-app-browserstack-sdk\android\testng-examples\browserstack.yml
+12:14:25.910 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+12:14:26.163 [main] INFO  c.browserstack.BrowserStackJavaAgent - uploading app ./ApiDemos-debug.apk to browserstack
+12:14:32.409 [main] INFO  c.browserstack.BrowserStackJavaAgent - app upload completed: {"app_url":"bs:\/\/99b25759762ff8a21adafe2d47d9906110a72069"}
+12:14:32.410 [main] INFO  c.browserstack.BrowserStackJavaAgent - Using app: [bs://99b25759762ff8a21adafe2d47d9906110a72069]
+12:14:32.410 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+12:14:38.925 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+12:14:44.952 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+12:15:25.733 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/c1mpsmfkcjfng7bdruvd4fyllqfjlbxkebxpd6fw to view build report, insights, and many more debugging information all at one place!
+
+12:15:26.563 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://app-automate.browserstack.com/dashboard/v2/builds/407f2739ae4f7604741211bf3e531bf57db5e982
+12:15:26.564 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+12:15:27.379 [Thread-3] INFO  com.browserstack.LocalFactory - BrowserStack Local Stopped Successfully.
+12:42:25.853 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.13.0
+12:42:25.856 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+12:42:26.034 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\COLLABERA.DIGITAL\Downloads\testng-appium-app-browserstack-sdk\testng-appium-app-browserstack-sdk\android\testng-examples\browserstack.yml
+12:42:26.090 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+12:42:26.344 [main] INFO  c.browserstack.BrowserStackJavaAgent - uploading app ./ApiDemos-debug.apk to browserstack
+12:42:29.816 [main] INFO  c.browserstack.BrowserStackJavaAgent - app upload completed: {"app_url":"bs:\/\/99b25759762ff8a21adafe2d47d9906110a72069"}
+12:42:29.816 [main] INFO  c.browserstack.BrowserStackJavaAgent - Using app: [bs://99b25759762ff8a21adafe2d47d9906110a72069]
+12:42:29.816 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+12:42:36.739 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+12:42:42.768 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+12:44:40.045 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/ukjvjtekurcus1sigcfpwlfesleujnxfa23oczxn to view build report, insights, and many more debugging information all at one place!
+
+12:44:41.068 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://app-automate.browserstack.com/dashboard/v2/builds/eb615f4f6426043c35b86d02b71c84dcff381647
+12:44:41.068 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+12:44:41.645 [Thread-3] INFO  com.browserstack.LocalFactory - BrowserStack Local Stopped Successfully.
+14:11:44.920 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.13.0
+14:11:44.922 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+14:11:45.098 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\COLLABERA.DIGITAL\Downloads\testng-appium-app-browserstack-sdk\testng-appium-app-browserstack-sdk\android\testng-examples\browserstack.yml
+14:11:45.160 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+14:11:45.415 [main] INFO  c.browserstack.BrowserStackJavaAgent - uploading app ./ApiDemos-debug.apk to browserstack
+14:11:51.114 [main] INFO  c.browserstack.BrowserStackJavaAgent - app upload completed: {"app_url":"bs:\/\/99b25759762ff8a21adafe2d47d9906110a72069"}
+14:11:51.114 [main] INFO  c.browserstack.BrowserStackJavaAgent - Using app: [bs://99b25759762ff8a21adafe2d47d9906110a72069]
+14:11:51.114 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+14:11:58.198 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+14:12:03.774 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+14:15:34.955 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/4cb5in7zct11fuozrv3cpm0nhcdpi3eb0vwoomm8 to view build report, insights, and many more debugging information all at one place!
+
+14:15:36.001 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://app-automate.browserstack.com/dashboard/v2/builds/7979b35ffab29913f067f37f97daaed6b2755c75
+14:15:36.001 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+14:15:36.558 [Thread-3] INFO  com.browserstack.LocalFactory - BrowserStack Local Stopped Successfully.
+14:19:40.256 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.13.0
+14:19:40.260 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+14:19:40.447 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\COLLABERA.DIGITAL\Downloads\testng-appium-app-browserstack-sdk\testng-appium-app-browserstack-sdk\android\testng-examples\browserstack.yml
+14:19:40.508 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+14:19:40.763 [main] INFO  c.browserstack.BrowserStackJavaAgent - uploading app ./ApiDemos-debug.apk to browserstack
+14:19:44.718 [main] INFO  c.browserstack.BrowserStackJavaAgent - app upload completed: {"app_url":"bs:\/\/99b25759762ff8a21adafe2d47d9906110a72069"}
+14:19:44.719 [main] INFO  c.browserstack.BrowserStackJavaAgent - Using app: [bs://99b25759762ff8a21adafe2d47d9906110a72069]
+14:19:44.719 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+14:19:50.768 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+14:19:56.008 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+14:22:43.456 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/jcxjlokvhnwzleeb8psrpv3tntrqa183ac6bn27o to view build report, insights, and many more debugging information all at one place!
+
+14:22:44.452 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://app-automate.browserstack.com/dashboard/v2/builds/e38b0fb4ff6db029e0ee119ed186d70a03c9ffa9
+14:22:44.452 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+14:22:44.998 [Thread-3] INFO  com.browserstack.LocalFactory - BrowserStack Local Stopped Successfully.
+14:46:52.742 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.13.0
+14:46:52.746 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+14:46:52.944 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\COLLABERA.DIGITAL\Downloads\testng-appium-app-browserstack-sdk\testng-appium-app-browserstack-sdk\android\testng-examples\browserstack.yml
+14:46:53.003 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+14:46:53.268 [main] INFO  c.browserstack.BrowserStackJavaAgent - uploading app ./ApiDemos-debug.apk to browserstack
+14:46:59.847 [main] INFO  c.browserstack.BrowserStackJavaAgent - app upload completed: {"app_url":"bs:\/\/99b25759762ff8a21adafe2d47d9906110a72069"}
+14:46:59.847 [main] INFO  c.browserstack.BrowserStackJavaAgent - Using app: [bs://99b25759762ff8a21adafe2d47d9906110a72069]
+14:46:59.847 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+14:47:06.501 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+14:47:11.618 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+14:48:35.282 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/irdsfha12w2dqwfz8hkwpzutyidgnedes7wnslsh to view build report, insights, and many more debugging information all at one place!
+
+14:48:36.269 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://app-automate.browserstack.com/dashboard/v2/builds/a5ab2d02a27f1b7e010a50b1066c5c25fc8e707a
+14:48:36.270 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+14:48:37.069 [Thread-3] INFO  com.browserstack.LocalFactory - BrowserStack Local Stopped Successfully.
