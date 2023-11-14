@@ -31,6 +31,17 @@ public class AppiumTest {
 	
 	public static final String URL = "http://" + AUTOMATE_USERNAME + ":" + AUTOMATE_ACCESS_KEY + "@hub-cloud.browserstack.com/wd/hub";
 	
+	String userName = System.getenv("BROWSERSTACK_USERNAME");
+	String accessKey = System.getenv("BROWSERSTACK_ACCESS_KEY");
+	String buildName = System.getenv("BROWSERSTACK_BUILD_NAME");
+//	String browserstackLocalIdentifier = System.getenv("BROWSERSTACK_LOCAL_IDENTIFIER");
+//	String browserstackLocal = System.getenv("BROWSERSTACK_LOCAL");
+	String app = System.getenv("BROWSERSTACK_APP_ID");
+	
+	
+	String URL2 = "http://" +  userName + ":" + accessKey + "@hub-cloud.browserstack.com/wd/hub";
+	
+	
     @BeforeMethod(alwaysRun=true)
     public void setUp() throws Exception {
         MutableCapabilities capabilities = new UiAutomator2Options();
@@ -39,13 +50,21 @@ public class AppiumTest {
         capabilities.setCapability("bstack:options", browserstackOptions);
 //        driver = new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub/"),capabilities);
         
+//        capabilities.setCapability("deviceName", "Samsung Galaxy S21");
+//        capabilities.setCapability("os_Version", "12.0");
+//        capabilities.setCapability("Project", "Vince's BrowserStack Android Sample");
+//        capabilities.setCapability("build", "Vince's Android BSBuild");
+//        capabilities.setCapability("name", "Vince's Android BSBuild - JAVA");
+//        capabilities.setCapability("app", "bs://8d424e0dc3cb17e79d923abf7ef8494caa5b01a2");
+//        driver = new AndroidDriver(new URL(URL),capabilities);
+        
         capabilities.setCapability("deviceName", "Samsung Galaxy S21");
         capabilities.setCapability("os_Version", "12.0");
         capabilities.setCapability("Project", "Vince's BrowserStack Android Sample");
-        capabilities.setCapability("build", "Vince's Android BSBuild");
-        capabilities.setCapability("name", "Vince's Android BSBuild - JAVA");
-        capabilities.setCapability("app", "bs://8d424e0dc3cb17e79d923abf7ef8494caa5b01a2");
-        driver = new AndroidDriver(new URL(URL),capabilities);
+        capabilities.setCapability("build", buildName);
+        capabilities.setCapability("name", buildName + " - JAVA");
+        capabilities.setCapability("app", "app");
+        driver = new AndroidDriver(new URL(URL2),capabilities);
     }
 
     @AfterMethod(alwaysRun=true)
