@@ -196,3 +196,279 @@
 	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:491)
 	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:503)
 
+12:47:11.617 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.13.0
+12:47:11.621 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+12:47:11.794 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\COLLABERA.DIGITAL\Downloads\BS_AppAutomate_Test\browserstack.yml
+12:47:11.843 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+12:47:12.055 [main] INFO  c.browserstack.BrowserStackJavaAgent - uploading app ./ApiDemos-debug.apk to browserstack
+12:47:15.251 [main] INFO  c.browserstack.BrowserStackJavaAgent - app upload completed: {"app_url":"bs:\/\/8d424e0dc3cb17e79d923abf7ef8494caa5b01a2"}
+12:47:15.252 [main] INFO  c.browserstack.BrowserStackJavaAgent - Using app: [bs://8d424e0dc3cb17e79d923abf7ef8494caa5b01a2]
+12:47:15.252 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+12:47:22.048 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+12:47:26.357 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+12:47:26.359 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - java.util.regex.PatternSyntaxException: Illegal/unsupported escape sequence near index 3
+C:\Users\COLLABERA.DIGITAL\Downloads\BS_AppAutomate_Test
+   ^
+	at java.base/java.util.regex.Pattern.error(Pattern.java:2028)
+	at java.base/java.util.regex.Pattern.escape(Pattern.java:2608)
+	at java.base/java.util.regex.Pattern.atom(Pattern.java:2286)
+	at java.base/java.util.regex.Pattern.sequence(Pattern.java:2210)
+	at java.base/java.util.regex.Pattern.expr(Pattern.java:2069)
+	at java.base/java.util.regex.Pattern.compile(Pattern.java:1783)
+	at java.base/java.util.regex.Pattern.<init>(Pattern.java:1430)
+	at java.base/java.util.regex.Pattern.compile(Pattern.java:1069)
+	at java.base/java.lang.String.replaceAll(String.java:2942)
+	at com.browserstack.config.JavaProperties.a(Unknown Source)
+	at com.browserstack.config.JavaProperties.getProcessCommandLine(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:491)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:503)
+
+12:47:28.410 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/vgutcd0gnke9dgez9fxid5akssyiiy4dyt51ab9s to view build report, insights, and many more debugging information all at one place!
+
+12:47:29.263 [Thread-5] INFO  com.browserstack.LocalFactory - BrowserStack Local Stopped Successfully.
+12:51:28.474 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.13.0
+12:51:28.477 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+12:51:28.642 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\COLLABERA.DIGITAL\Downloads\BS_AppAutomate_Test\browserstack.yml
+12:51:28.693 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+12:51:28.904 [main] INFO  c.browserstack.BrowserStackJavaAgent - uploading app ./ApiDemos-debug.apk to browserstack
+12:51:32.052 [main] INFO  c.browserstack.BrowserStackJavaAgent - app upload completed: {"app_url":"bs:\/\/8d424e0dc3cb17e79d923abf7ef8494caa5b01a2"}
+12:51:32.052 [main] INFO  c.browserstack.BrowserStackJavaAgent - Using app: [bs://8d424e0dc3cb17e79d923abf7ef8494caa5b01a2]
+12:51:32.052 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+12:51:37.643 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+12:51:42.192 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+12:51:42.194 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - java.util.regex.PatternSyntaxException: Illegal/unsupported escape sequence near index 3
+C:\Users\COLLABERA.DIGITAL\Downloads\BS_AppAutomate_Test
+   ^
+	at java.base/java.util.regex.Pattern.error(Pattern.java:2028)
+	at java.base/java.util.regex.Pattern.escape(Pattern.java:2608)
+	at java.base/java.util.regex.Pattern.atom(Pattern.java:2286)
+	at java.base/java.util.regex.Pattern.sequence(Pattern.java:2210)
+	at java.base/java.util.regex.Pattern.expr(Pattern.java:2069)
+	at java.base/java.util.regex.Pattern.compile(Pattern.java:1783)
+	at java.base/java.util.regex.Pattern.<init>(Pattern.java:1430)
+	at java.base/java.util.regex.Pattern.compile(Pattern.java:1069)
+	at java.base/java.lang.String.replaceAll(String.java:2942)
+	at com.browserstack.config.JavaProperties.a(Unknown Source)
+	at com.browserstack.config.JavaProperties.getProcessCommandLine(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:491)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:503)
+
+12:51:44.194 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/cocd5wzks3ypoumuxyoowu10l3kg80gasgrzllkc to view build report, insights, and many more debugging information all at one place!
+
+12:51:45.176 [Thread-5] INFO  com.browserstack.LocalFactory - BrowserStack Local Stopped Successfully.
+13:06:28.984 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.13.0
+13:06:28.988 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+13:06:29.156 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\COLLABERA.DIGITAL\Downloads\BS_AppAutomate_Test\browserstack.yml
+13:06:29.207 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+13:06:29.427 [main] INFO  c.browserstack.BrowserStackJavaAgent - uploading app ./ApiDemos-debug.apk to browserstack
+13:06:35.966 [main] INFO  c.browserstack.BrowserStackJavaAgent - app upload completed: {"app_url":"bs:\/\/8d424e0dc3cb17e79d923abf7ef8494caa5b01a2"}
+13:06:35.967 [main] INFO  c.browserstack.BrowserStackJavaAgent - Using app: [bs://8d424e0dc3cb17e79d923abf7ef8494caa5b01a2]
+13:06:35.967 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+13:06:44.205 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+13:06:49.142 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+13:06:49.144 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - java.util.regex.PatternSyntaxException: Illegal/unsupported escape sequence near index 3
+C:\Users\COLLABERA.DIGITAL\Downloads\BS_AppAutomate_Test
+   ^
+	at java.base/java.util.regex.Pattern.error(Pattern.java:2028)
+	at java.base/java.util.regex.Pattern.escape(Pattern.java:2608)
+	at java.base/java.util.regex.Pattern.atom(Pattern.java:2286)
+	at java.base/java.util.regex.Pattern.sequence(Pattern.java:2210)
+	at java.base/java.util.regex.Pattern.expr(Pattern.java:2069)
+	at java.base/java.util.regex.Pattern.compile(Pattern.java:1783)
+	at java.base/java.util.regex.Pattern.<init>(Pattern.java:1430)
+	at java.base/java.util.regex.Pattern.compile(Pattern.java:1069)
+	at java.base/java.lang.String.replaceAll(String.java:2942)
+	at com.browserstack.config.JavaProperties.a(Unknown Source)
+	at com.browserstack.config.JavaProperties.getProcessCommandLine(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:491)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:503)
+
+13:06:51.431 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/o8whqltf0wh07rbaryahdd6qvw7dytfrzjlcmqgp to view build report, insights, and many more debugging information all at one place!
+
+13:06:52.016 [Thread-5] INFO  com.browserstack.LocalFactory - BrowserStack Local Stopped Successfully.
+14:04:52.552 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.13.0
+14:04:52.554 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+14:04:52.723 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\COLLABERA.DIGITAL\Downloads\BS_AppAutomate_Test\browserstack.yml
+14:04:52.769 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+14:04:53.145 [main] INFO  c.browserstack.BrowserStackJavaAgent - uploading app ApiDemos-debug.apk to browserstack
+14:04:58.985 [main] INFO  c.browserstack.BrowserStackJavaAgent - app upload completed: {"app_url":"bs:\/\/8d424e0dc3cb17e79d923abf7ef8494caa5b01a2"}
+14:04:58.986 [main] INFO  c.browserstack.BrowserStackJavaAgent - Using app: [bs://8d424e0dc3cb17e79d923abf7ef8494caa5b01a2]
+14:04:58.986 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+14:05:05.809 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+14:05:10.362 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+14:05:10.366 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - java.util.regex.PatternSyntaxException: Illegal/unsupported escape sequence near index 3
+C:\Users\COLLABERA.DIGITAL\Downloads\BS_AppAutomate_Test
+   ^
+	at java.base/java.util.regex.Pattern.error(Pattern.java:2028)
+	at java.base/java.util.regex.Pattern.escape(Pattern.java:2608)
+	at java.base/java.util.regex.Pattern.atom(Pattern.java:2286)
+	at java.base/java.util.regex.Pattern.sequence(Pattern.java:2210)
+	at java.base/java.util.regex.Pattern.expr(Pattern.java:2069)
+	at java.base/java.util.regex.Pattern.compile(Pattern.java:1783)
+	at java.base/java.util.regex.Pattern.<init>(Pattern.java:1430)
+	at java.base/java.util.regex.Pattern.compile(Pattern.java:1069)
+	at java.base/java.lang.String.replaceAll(String.java:2942)
+	at com.browserstack.config.JavaProperties.a(Unknown Source)
+	at com.browserstack.config.JavaProperties.getProcessCommandLine(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:491)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:503)
+
+14:05:12.632 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/aczg28rrf8azrmskckzictl6gbtkjs4wqqkmd34z to view build report, insights, and many more debugging information all at one place!
+
+14:05:13.484 [Thread-5] INFO  com.browserstack.LocalFactory - BrowserStack Local Stopped Successfully.
+14:07:02.654 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.13.0
+14:07:02.656 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+14:07:02.812 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\COLLABERA.DIGITAL\Downloads\BS_AppAutomate_Test\browserstack.yml
+14:07:02.862 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+14:07:03.088 [main] INFO  c.browserstack.BrowserStackJavaAgent - uploading app ./ApiDemos-debug.apk to browserstack
+14:07:10.107 [main] INFO  c.browserstack.BrowserStackJavaAgent - app upload completed: {"app_url":"bs:\/\/8d424e0dc3cb17e79d923abf7ef8494caa5b01a2"}
+14:07:10.108 [main] INFO  c.browserstack.BrowserStackJavaAgent - Using app: [bs://8d424e0dc3cb17e79d923abf7ef8494caa5b01a2]
+14:07:10.108 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+14:07:15.628 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+14:07:19.843 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+14:07:19.844 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - java.util.regex.PatternSyntaxException: Illegal/unsupported escape sequence near index 3
+C:\Users\COLLABERA.DIGITAL\Downloads\BS_AppAutomate_Test
+   ^
+	at java.base/java.util.regex.Pattern.error(Pattern.java:2028)
+	at java.base/java.util.regex.Pattern.escape(Pattern.java:2608)
+	at java.base/java.util.regex.Pattern.atom(Pattern.java:2286)
+	at java.base/java.util.regex.Pattern.sequence(Pattern.java:2210)
+	at java.base/java.util.regex.Pattern.expr(Pattern.java:2069)
+	at java.base/java.util.regex.Pattern.compile(Pattern.java:1783)
+	at java.base/java.util.regex.Pattern.<init>(Pattern.java:1430)
+	at java.base/java.util.regex.Pattern.compile(Pattern.java:1069)
+	at java.base/java.lang.String.replaceAll(String.java:2942)
+	at com.browserstack.config.JavaProperties.a(Unknown Source)
+	at com.browserstack.config.JavaProperties.getProcessCommandLine(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:491)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:503)
+
+14:07:21.752 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/nzebazpaotpymbb8p3zk7yankt6ckva3bscldd4h to view build report, insights, and many more debugging information all at one place!
+
+14:07:22.717 [Thread-5] INFO  com.browserstack.LocalFactory - BrowserStack Local Stopped Successfully.
+14:10:03.294 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.13.0
+14:10:03.297 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+14:10:03.469 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\COLLABERA.DIGITAL\Downloads\BS_AppAutomate_Test\browserstack.yml
+14:10:03.518 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+14:10:03.730 [main] INFO  c.browserstack.BrowserStackJavaAgent - uploading app ./ApiDemos-debug.apk to browserstack
+14:10:08.167 [main] INFO  c.browserstack.BrowserStackJavaAgent - app upload completed: {"app_url":"bs:\/\/8d424e0dc3cb17e79d923abf7ef8494caa5b01a2"}
+14:10:08.168 [main] INFO  c.browserstack.BrowserStackJavaAgent - Using app: [bs://8d424e0dc3cb17e79d923abf7ef8494caa5b01a2]
+14:10:08.168 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+14:10:15.110 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+14:10:20.643 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+14:10:20.644 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - java.util.regex.PatternSyntaxException: Illegal/unsupported escape sequence near index 3
+C:\Users\COLLABERA.DIGITAL\Downloads\BS_AppAutomate_Test
+   ^
+	at java.base/java.util.regex.Pattern.error(Pattern.java:2028)
+	at java.base/java.util.regex.Pattern.escape(Pattern.java:2608)
+	at java.base/java.util.regex.Pattern.atom(Pattern.java:2286)
+	at java.base/java.util.regex.Pattern.sequence(Pattern.java:2210)
+	at java.base/java.util.regex.Pattern.expr(Pattern.java:2069)
+	at java.base/java.util.regex.Pattern.compile(Pattern.java:1783)
+	at java.base/java.util.regex.Pattern.<init>(Pattern.java:1430)
+	at java.base/java.util.regex.Pattern.compile(Pattern.java:1069)
+	at java.base/java.lang.String.replaceAll(String.java:2942)
+	at com.browserstack.config.JavaProperties.a(Unknown Source)
+	at com.browserstack.config.JavaProperties.getProcessCommandLine(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:491)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:503)
+
+14:10:25.254 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/3xwaopllsutlahwp5797vczlhto0nbl6e5i1qrgg to view build report, insights, and many more debugging information all at one place!
+
+14:10:26.165 [Thread-5] INFO  com.browserstack.LocalFactory - BrowserStack Local Stopped Successfully.
+14:13:21.205 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.13.0
+14:13:21.209 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+14:13:21.371 [main] ERROR c.b.config.BrowserStackConfig - Error in getting CLI caps - java.util.regex.PatternSyntaxException: Illegal/unsupported escape sequence near index 3
+C:\Users\COLLABERA.DIGITAL\Downloads\BS_AppAutomate_Test
+   ^
+14:13:21.372 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\browserstack.yml
+14:13:21.372 [main] ERROR c.b.config.BrowserStackConfig - [Invalid Path] Config file does not exist at any parent directory of C:\Users\COLLABERA.DIGITAL\Downloads\BS_AppAutomate_Test. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+14:13:21.373 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - java.lang.RuntimeException: [Invalid Path] Config file does not exist at any parent directory of C:\Users\COLLABERA.DIGITAL\Downloads\BS_AppAutomate_Test. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+	at com.browserstack.config.BrowserStackConfig.getInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:491)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:503)
+
+14:14:01.788 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.13.0
+14:14:01.791 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+14:14:01.973 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\browserstack.yml
+14:14:01.973 [main] ERROR c.b.config.BrowserStackConfig - [Invalid Path] Config file does not exist at any parent directory of C:\Users\COLLABERA.DIGITAL\Downloads\BS_AppAutomate_Test. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+14:14:01.974 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - java.lang.RuntimeException: [Invalid Path] Config file does not exist at any parent directory of C:\Users\COLLABERA.DIGITAL\Downloads\BS_AppAutomate_Test. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+	at com.browserstack.config.BrowserStackConfig.getInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:491)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:503)
+
+14:14:47.144 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.13.0
+14:14:47.148 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+14:14:47.313 [main] ERROR c.b.config.BrowserStackConfig - Error in getting CLI caps - java.util.regex.PatternSyntaxException: Illegal/unsupported escape sequence near index 3
+C:\Users\COLLABERA.DIGITAL\Downloads\BS_AppAutomate_Test
+   ^
+14:14:47.314 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\browserstack.yml
+14:14:47.314 [main] ERROR c.b.config.BrowserStackConfig - [Invalid Path] Config file does not exist at any parent directory of C:\Users\COLLABERA.DIGITAL\Downloads\BS_AppAutomate_Test. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+14:14:47.315 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - java.lang.RuntimeException: [Invalid Path] Config file does not exist at any parent directory of C:\Users\COLLABERA.DIGITAL\Downloads\BS_AppAutomate_Test. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+	at com.browserstack.config.BrowserStackConfig.getInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:491)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:503)
+

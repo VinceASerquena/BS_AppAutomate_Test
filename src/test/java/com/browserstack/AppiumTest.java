@@ -37,15 +37,15 @@ public class AppiumTest {
         HashMap<String, Object> browserstackOptions = new HashMap<String, Object>();
         browserstackOptions.put("appiumVersion", "2.0.1");
         capabilities.setCapability("bstack:options", browserstackOptions);
-        driver = new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"),capabilities);
+//        driver = new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub/"),capabilities);
         
-//        capabilities.setCapability("deviceName", "Samsung Galaxy S21");
-//        capabilities.setCapability("os_Version", "12.0");
-//        capabilities.setCapability("Project", "Vince's BrowserStack Android Sample");
-//        capabilities.setCapability("build", "Vince's Android BSBuild");
-//        capabilities.setCapability("name", "Vince's Android BSBuild - JAVA");
-//        capabilities.setCapability("app", "bs://99b25759762ff8a21adafe2d47d9906110a72069");
-//        driver = new AndroidDriver(new URL(URL),capabilities);
+        capabilities.setCapability("deviceName", "Samsung Galaxy S21");
+        capabilities.setCapability("os_Version", "12.0");
+        capabilities.setCapability("Project", "Vince's BrowserStack Android Sample");
+        capabilities.setCapability("build", "Vince's Android BSBuild");
+        capabilities.setCapability("name", "Vince's Android BSBuild - JAVA");
+        capabilities.setCapability("app", "bs://8d424e0dc3cb17e79d923abf7ef8494caa5b01a2");
+        driver = new AndroidDriver(new URL(URL),capabilities);
     }
 
     @AfterMethod(alwaysRun=true)
