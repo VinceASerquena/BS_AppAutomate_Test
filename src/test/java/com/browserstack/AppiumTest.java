@@ -25,7 +25,12 @@ import io.appium.java_client.android.options.UiAutomator2Options;
 public class AppiumTest {
 
     public AndroidDriver driver;
-
+    
+    public static final String AUTOMATE_USERNAME = "vincealecserquen_PUL7Gx";
+	public static final String AUTOMATE_ACCESS_KEY = "6Nakjv6gG8CQfeyCxTHW";
+	
+	public static final String URL = "http://" + AUTOMATE_USERNAME + ":" + AUTOMATE_ACCESS_KEY + "@hub-cloud.browserstack.com/wd/hub";
+	
     @BeforeMethod(alwaysRun=true)
     public void setUp() throws Exception {
         MutableCapabilities capabilities = new UiAutomator2Options();
@@ -33,6 +38,15 @@ public class AppiumTest {
         browserstackOptions.put("appiumVersion", "2.0.1");
         capabilities.setCapability("bstack:options", browserstackOptions);
         driver = new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"),capabilities);
+        
+//        capabilities.setCapability("deviceName", "Samsung Galaxy S21");
+//        capabilities.setCapability("os_Version", "12.0");
+//        capabilities.setCapability("Project", "Vince's BrowserStack Android Sample");
+//        capabilities.setCapability("build", "Vince's Android BSBuild");
+//        capabilities.setCapability("name", "Vince's Android BSBuild - JAVA");
+//        capabilities.setCapability("app", "bs://99b25759762ff8a21adafe2d47d9906110a72069");
+        //
+        driver = new AndroidDriver(new URL(URL),capabilities);
     }
 
     @AfterMethod(alwaysRun=true)
