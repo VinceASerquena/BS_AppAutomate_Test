@@ -63,7 +63,7 @@ public class AppiumTest {
         capabilities.setCapability("Project", "Vince's BrowserStack Android Sample");
         capabilities.setCapability("build", buildName);
         capabilities.setCapability("name", buildName + " - JAVA");
-        capabilities.setCapability("app", "app");
+        capabilities.setCapability("app", app);
         driver = new AndroidDriver(new URL(URL2),capabilities);
     }
 
