@@ -45,8 +45,7 @@ public class AppiumTest {
 //        capabilities.setCapability("build", "Vince's Android BSBuild");
 //        capabilities.setCapability("name", "Vince's Android BSBuild - JAVA");
 //        capabilities.setCapability("app", "bs://99b25759762ff8a21adafe2d47d9906110a72069");
-        //
-        driver = new AndroidDriver(new URL(URL),capabilities);
+//        driver = new AndroidDriver(new URL(URL),capabilities);
     }
 
     @AfterMethod(alwaysRun=true)
